@@ -1,0 +1,107 @@
+/* ==========================================
+   기본 설정 및 카카오톡 스타일 메인 레이아웃
+   ========================================== */
+
+body {
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  background-color: #f7f9fa;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 카톡 스타일 메인 카드 */
+.bmi-container {
+  background-color: #ffffff;
+  width: 380px;
+  padding: 30px 24px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+}
+
+/* 제목 스타일 */
+.bmi-container h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #191919;
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* 입력 그룹 */
+.input-group {
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7b7b7b;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 14px;
+  background-color: #f2f3f5;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #191919;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #fee500;
+  box-shadow: 0 0 0 3px rgba(254, 229, 0, 0.2);
+}
+
+/* 카카오 시그니처 버튼 */
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #fee500;
+  color: #191919;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #fadd00;
+}
+
+/* 결과 출력 영역 (카톡 말풍선 느낌) */
+.result-box {
+  margin-top: 24px;
+  background-color: #f2f3f5;
+  padding: 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+#result {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+#state {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fa5252;
+}
+
